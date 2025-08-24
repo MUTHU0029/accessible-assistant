@@ -1,50 +1,56 @@
-🧑‍🦯 Accessible Assistant
+ 🧑‍🦯 Accessible Assistant
 
-An AI-powered Accessible Assistant designed to support blind, deaf, mute, and normal users. The project integrates computer vision, speech technologies, and assistive interfaces to make digital interactions more inclusive.
+An AI-powered assistant designed to support blind, deaf, mute, and all users. Integrates computer vision, speech technologies, and assistive interfaces to make digital interaction accessible for everyone.
 
-🚀 Features:
+ 🚀 Features
 
-For Blind Users 👁️:
+ For Blind Users 👁️
+- Object Detection (YOLOv8 + OpenCV)
+- Real-time Book Reader (OCR + Text-to-Speech)
+- Voice Commands & Navigation
 
-Object Detection using YOLOv8 + OpenCV
+ For Deaf Users 👂
+- Speech-to-Text (STT) for live transcription
+- Real-time conversation support
 
-Real-time Book Reader (OCR + Text-to-Speech)
+ For Mute Users 🗣️
+- Text-to-Speech (TTS) for communication
+- Simple typing → automatic voice output
 
-Voice Commands & Navigation
+ For General Users 👨‍💻
+- General-purpose assistant features
+- Volunteer support system
 
-For Deaf Users 👂:
+ Additional Functionalities
+- Gesture-controlled appliances (MediaPipe + OpenCV)
+- Face Recognition (FaceNet)
 
-Speech-to-Text (STT) for live transcription
+**Volunteer System:** Users can request nearby volunteers for help (ongoing).
 
-Real-time conversation support
+ 🏗️ Tech Stack
 
-For Mute Users 🗣️:
+- **Frontend:** HTML, Tailwind CSS, JavaScript
+- **Backend:** Python (Flask)
+- **AI/ML:** OpenCV, YOLOv8, MediaPipe, FaceNet, Tesseract OCR
+- **Speech Tools:** pyttsx3, SpeechRecognition, Web Speech API
 
-Text-to-Speech (TTS) for communication
+ 🚦 Installation
 
-Simple typing → automatic voice output
+git clone https://github.com/MUTHU0029/accessible-assistant.git
+cd accessible-assistant
+pip install -r requirements.txt
+python app.py
 
-For Normal Users 👨‍💻:
+ 📚 Usage
 
-General-purpose assistant features
+Blind Mode: Select Blind → Use object detection & book reader
 
-Volunteer support system
+Deaf Mode: Select Deaf → Speech → Text transcription
 
-Extra Functionalities:
+Mute Mode: Select Mute → Type and convert to speech
 
-Gesture-controlled appliances (MediaPipe + OpenCV)
+Normal Mode: Access all features + volunteer support
 
-Face Recognition (FaceNet)
+ 📝 License
 
-
-Volunteer System: Users can request nearby volunteers for help(ongoing).
-
-🏗️ Tech Stack:
-
-Frontend: HTML, Tailwind CSS, JavaScript
-
-Backend: Python (Flask)
-
-AI/ML: OpenCV, YOLOv8, MediaPipe, FaceNet, Tesseract OCR
-
-Speech Tools: pyttsx3, SpeechRecognition, Web Speech API
+This project is licensed under the MIT License – free to use and modify.
