@@ -36,9 +36,8 @@ Gesture-controlled appliances (MediaPipe + OpenCV)
 
 Face Recognition (FaceNet)
 
-Accident Alerting with GNSS + GSM
 
-Volunteer System: Users can request nearby volunteers for help
+Volunteer System: Users can request nearby volunteers for help(ongoing).
 
 🏗️ Tech Stack:
 
