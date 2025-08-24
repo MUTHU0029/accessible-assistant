@@ -1,6 +1,6 @@
  🧑‍🦯 Accessible Assistant
 
-An AI-powered assistant designed to support blind, deaf, mute, and all users. Integrates computer vision, speech technologies, and assistive interfaces to make digital interaction accessible for everyone.
+An assistant designed to support blind, deaf, mute, and all users. Integrates computer vision, speech technologies, and assistive interfaces to make digital interaction accessible for everyone.
 
  🚀 Features
 
